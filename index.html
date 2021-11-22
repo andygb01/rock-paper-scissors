@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+
+  <header class="header">
+    <h1 class="title">ROCK PAPER SCISSORS</h1>
+  </header>
+
+  <main class="main">
+    <div class="scoreboard">
+      <h2 class="score-info" id="scoreInfo">Score</h2>
+      <h4>First one to 5 wins!</h4>
+        <div class="scores-container">
+          <div class="score">
+            <p id="playerScore">Player: 0</p>
+            <i class="rps shoot-rock" id="playerSign"></i>
+          </div>
+          <div class="score">
+            <p id="computerScore">Computer: 0</p>
+            <i class="rps shoot-rock" id="computerSign"></i>
+          </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+      <button class="button" id="rockButton">ROCK
+        <i class="rpss shoot-rock"></i>
+      </button>
+      <button class="button" id="paperButton">PAPER
+        <i class="rpss shoot-paper"></i>
+      </button>
+      <button class="button" id="scissorsButton">SCISSORS
+        <i class="rpss shoot-scissors"></i>
+      </button>
+    </div>
+  </main>
+
+  <div class="restart" id="endGame">
+    <button class="buttonRestart" id="restartButton">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+      
+</body>
+</html>

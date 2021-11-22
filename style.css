@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.main {
+    text-align: center;
+}
+
+.scores-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    width: 100px;
+}
+
+.scoreboard p {
+    font-weight: bold;
+}
+
+.restart {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
